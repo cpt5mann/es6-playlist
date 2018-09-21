@@ -69,7 +69,8 @@ To complete Part II, fulfill the following requirements:
 2. Add more genres
 
 ## Resources
+[filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-- [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-- [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-- [innerHTML](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
+[map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+[innerHTML](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
