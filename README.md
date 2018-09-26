@@ -54,7 +54,7 @@ To complete Part II, fulfill the following requirements:
 2. Create 6 different music genres of your choice, with 6 different songs/artist in each genre
 3. All your data should be saved in `data.js` file 
 
-### Part IV JS
+### Part III JS
 
 1. Access your music data by `console.log(data)`;
 2. Use `filter` and `map` to render out your data
