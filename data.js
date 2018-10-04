@@ -1,4 +1,4 @@
-const data = [
+const data= [
     {
         artist: 'Peter Hollens',
         genre: 'Acapella',
@@ -54,26 +54,22 @@ const data = [
         image: 'https://i.ytimg.com/an_webp/4F_Rikbar0Q/mqdefault_6s.webp?du=3000&sqp=CITNr90F&rs=AOn4CLAbQcOVJBfg8ZqYy8RK9H8veWTP4w'
     },
     {
-        artist: '',
-        genre: 'Acapella',
-        song: 'Misty Mountains',
+        artist: 'Adele',
+        genre: 'Pop',
+        song: 'Hello',
         image: 'https://i.ytimg.com/vi/nEwzFF4HeB8/mqdefault.jpg'
     },
     {
-        artist: 'Peter Hollens',
-        genre: 'Acapella',
-        song: 'Amazing Grace',
+        artist: 'IDK',
+        genre: 'Pop',
+        song: 'IDK',
         image: 'https://i.ytimg.com/vi/W7kT5cCU4jg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCsrW0WYWpHzxnwqltwfYPXqGm_jw'
     },
     {
-        artist: 'Peter Hollens',
-        genre: 'Acapella',
-        song: 'The Parting Glass',
+        artist: 'IDK',
+        genre: 'Pop',
+        song: 'IDK',
         image: 'https://www.youtube.com/watch?v=zx0ivLC6wrQ'
-    }
-
-
-
-
-
-]
+    }];
+    
+;
