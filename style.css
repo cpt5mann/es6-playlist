@@ -1,9 +1,6 @@
-#container{
-display:flex;
-flex-wrap:wrap;
-}
+
 #btncont{
-display:flex;
+
 flex-basis:100%;   
 
 }
@@ -11,31 +8,71 @@ button{
 width:300px;
 height:50px;
 flex-grow:50;
-animation-name: example;
-animation-duration:2s;
 
 }
+#popbtn{
+    animation-name: example, text1;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+#acabtn{
+    animation-name: example2, text12;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
 img{
 width: 100px;
 height:50px;
 border: gold 12px solid;
+animation-name:imgbord;
+animation-duration:2s;
+animation-iteration-count:infinite;
 }
 #indivcont{
-border:10px solid black;
-}
+    border:10px solid black;
+    animation-name: border, textsong;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+ 
+ }
 #stuffcont{
+
+flex-direction: row;
 display:flex;
-flex-direction:row;
+flex-wrap:nowrap;
+
+
+
 }
 @keyframes example {
-    from {color: red;}
-    to {color: yellow;}
+    0%, 100% {background-color: red;}
+    50% {background-color: yellow;}
 }
-
-
-
-
-
-
-
-
+@keyframes text1 {
+    0%, 100% {color: yellow;}
+    50% {color: red;}
+}
+@keyframes example2 {
+    0%, 100% {background-color: rgb(3, 230, 3);}
+    50% {background-color: blue;}
+}
+@keyframes text12 {
+    0%, 100% {color: blue;}
+    50% {color: rgb(3, 230, 3);}
+}
+@keyframes border {
+    0%, 100% {background-color: black;}
+    50% {background-color: white;}
+}
+@keyframes textsong {
+    0%, 100% {color: white;}
+    50% {color: black;}
+}
+@keyframes imgbord {
+    0%, 100% {border-color: gold;}
+    50% {border-color: aqua;}
+}
